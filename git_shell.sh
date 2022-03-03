@@ -4,6 +4,7 @@
 # Github /lucas290as
 
 # Script for create commits for github
+# Coming soon for Windows
 
 # MAIN
 
@@ -13,6 +14,12 @@ main() {
     clear;
     echo -n "Type the commit: ";
     read commit;
+    if [ $commit == "" ]; then
+        clear;
+        echo "Commit message cannot be empty";
+        clear;
+        main 
+    fi
     clear;
     git commit -m "$commit";
     clear;
