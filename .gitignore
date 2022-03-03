@@ -1,4 +1,4 @@
-.vscode
-.json
-.txt
-.zip
+*.vscode
+*.json
+*.txt
+*.zip
