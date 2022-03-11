@@ -23,19 +23,19 @@ main() {
     clear;
     git commit -m "$commit";
     clear;
-    echo '\t COMMITING ...'
+    echo -e "\t COMMITING ...";
     sleep 1;
     clear
-    echo '\t COMMITED!';
+    echo -e "\t COMMITED!";
     sleep 2;
     clear;
-    echo '\t SENDING ...';
+    echo -e "\t SENDING ...";
     clear;
     git push;
     clear;
-    echo '\tEVERYTHING IS OK!'
+    echo -e "\t EVERYTHING IS OK!";
     clear;
-    echo '\tEXITING THE SCRIPT ...';
+    echo -e "\t EXITING THE SCRIPT ...";
     sleep 1;
     clear
 }
