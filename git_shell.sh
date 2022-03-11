@@ -23,12 +23,13 @@ main() {
     clear;
     git commit -m "$commit";
     clear;
-    echo "\t COMMITING ..."
+    echo "\\t COMMITING ..."
     sleep 1;
     clear
     echo "\t COMMITED!";
+    sleep 2;
     clear;
-    echo "\t SENDING ..."
+    echo "\t SENDING ...";
     clear;
     git push;
     clear;
