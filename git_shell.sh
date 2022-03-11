@@ -26,7 +26,7 @@ main() {
     echo "\t COMMITING ..."
     sleep 1;
     clear
-    echo "\\t COMMITED!";
+    echo "\t COMMITED!";
     clear;
     echo "\t SENDING ..."
     clear;
