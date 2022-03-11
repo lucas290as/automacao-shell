@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Scritp By lucas290as
 # Author = Lucas de Souza Santos
 # Github /lucas290as
